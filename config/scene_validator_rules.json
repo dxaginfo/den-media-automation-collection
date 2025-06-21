@@ -1,0 +1,47 @@
+{
+  "technical": {
+    "resolution": ["1920x1080", "3840x2160", "4096x2160", "1280x720"],
+    "frameRate": [24, 25, 29.97, 30, 60],
+    "colorSpace": ["Rec.709", "Rec.2020", "DCI-P3", "sRGB"],
+    "audioChannels": [2, 5.1, 7.1, 2.1],
+    "audioSampleRate": [48000, 96000, 44100]
+  },
+  "composition": {
+    "enforceRuleOfThirds": true,
+    "enforceHeadroom": true,
+    "enforceLeadingSpace": true,
+    "enforceDepthOfField": true,
+    "enforceFraming": true
+  },
+  "continuity": {
+    "checkProps": true,
+    "checkWardrobe": true,
+    "checkLighting": true,
+    "checkTimeOfDay": true,
+    "checkMakeup": true,
+    "checkHairStyle": true,
+    "checkShadows": true,
+    "checkWeather": true
+  },
+  "styles": {
+    "allowedLooks": [
+      "natural", 
+      "high_contrast", 
+      "low_contrast", 
+      "warm", 
+      "cool", 
+      "desaturated"
+    ],
+    "allowedTransitions": [
+      "cut", 
+      "dissolve", 
+      "fade", 
+      "wipe", 
+      "crossfade"
+    ]
+  },
+  "custom": {
+    "clientRequirements": [],
+    "projectSpecificRules": []
+  }
+}
