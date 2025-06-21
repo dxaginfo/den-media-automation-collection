@@ -1,0 +1,70 @@
+{
+  "sceneName": "Café Reunion",
+  "sceneNumber": "3A",
+  "location": "Downtown Café",
+  "timeOfDay": "Morning",
+  "characters": [
+    {
+      "name": "Sarah",
+      "wardrobe": "Blue dress, white cardigan, silver necklace",
+      "props": ["Coffee cup", "Laptop", "Phone"]
+    },
+    {
+      "name": "Michael",
+      "wardrobe": "Gray suit, no tie, watch",
+      "props": ["Briefcase", "Phone", "Notebook"]
+    }
+  ],
+  "props": [
+    "Coffee cups",
+    "Café tables",
+    "Laptop",
+    "Newspapers",
+    "Pastries"
+  ],
+  "technical": {
+    "resolution": "3840x2160",
+    "frameRate": 24,
+    "colorSpace": "Rec.709",
+    "audioChannels": 2,
+    "audioSampleRate": 48000
+  },
+  "composition": {
+    "ruleOfThirds": true,
+    "depthOfField": "Shallow",
+    "framing": "Medium two-shot, over-shoulder"
+  },
+  "lighting": {
+    "style": "Natural",
+    "keyLight": "Window light from camera right",
+    "fillLight": "Soft bounce from interior",
+    "backLight": "Subtle rim from café lights"
+  },
+  "previousScenes": [
+    {
+      "sceneName": "Office Confrontation",
+      "sceneNumber": "2B",
+      "location": "Corporate Office",
+      "timeOfDay": "Late Afternoon",
+      "characters": [
+        {
+          "name": "Sarah",
+          "wardrobe": "Blue dress, white cardigan, silver necklace",
+          "props": ["Folder", "Pen", "Phone"]
+        },
+        {
+          "name": "Michael",
+          "wardrobe": "Gray suit, red tie, watch",
+          "props": ["Briefcase", "Phone", "Coffee mug"]
+        }
+      ],
+      "props": [
+        "Office desk",
+        "Computer monitors",
+        "Office chairs",
+        "Water cooler",
+        "Filing cabinet"
+      ]
+    }
+  ]
+}
